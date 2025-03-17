@@ -1,0 +1,4 @@
+GroundingDINO/
+*.pth
+*.jpeg
+*.png
