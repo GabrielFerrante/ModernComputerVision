@@ -102,3 +102,48 @@ Nota: A fórmula é aplicada para cada dimensão do mapa final.
 
 - Aplicação:
     - Substitui camadas de pooling em algumas arquiteturas (ex: Conv com stride 2).
+
+5. **Função de ativação ReLU**
+
+Vamos explorar a função de ativação ReLU (Rectified Linear Unit) em profundidade, incluindo sua definição matemática, propriedades, vantagens, limitações e variações. Esta é uma das funções de ativação mais utilizadas em redes neurais profundas, especialmente em CNNs.
+![alt text](image-9.png)
+
+- Por que ReLU é Usada?
+    - ReLU introduz não-linearidade na rede neural, permitindo que o modelo aprenda relações complexas nos dados. Comparada a funções como sigmoid ou tanh, ela resolve dois problemas críticos:
+
+    - Vanishing Gradient: Derivadas próximas de zero em saturação (comum em sigmoid e tanh para valores extremos).
+
+    - Eficiência Computacional: Cálculos simples (apenas comparações e multiplicações).
+
+
+![alt text](image-10.png)
+
+![alt text](image-11.png)
+
+
+6. **Pooling**
+
+- O Pooling é uma operação de redução dimensional aplicada a feature maps (mapas de características) para:
+
+    - Reduzir a complexidade computacional: Diminui o tamanho espacial das matrizes.
+
+    - Controlar overfitting: Reduz o número de parâmetros.
+
+    - Garantir invariância a pequenas transformações: Como translações, rotações ou mudanças de escala.
+
+    - Preservar características dominantes: Destaca padrões mais relevantes.
+
+    ![alt text](image-13.png)
+    ![alt text](image-12.png)
+
+    ![alt text](image-14.png)
+
+    Outros Tipos de Pooling
+    - Min Pooling: Seleciona o menor valor da região (pouco utilizado).
+
+    - Global Pooling: 
+        - Global Average Pooling: Calcula a média de todo o feature map (usado em redes como GoogLeNet para substituir camadas densas).
+
+        - Global Max Pooling: Seleciona o valor máximo de todo o feature map.
+
+    ![alt text](image-15.png)
