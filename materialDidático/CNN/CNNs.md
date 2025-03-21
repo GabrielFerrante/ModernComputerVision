@@ -147,3 +147,29 @@ Vamos explorar a função de ativação ReLU (Rectified Linear Unit) em profundi
         - Global Max Pooling: Seleciona o valor máximo de todo o feature map.
 
     ![alt text](image-15.png)
+
+
+7. **Camada totalmente conectada**
+
+Conecta todos os neurônios da camada anterior à atual, geralmente usada no final para classificação.
+Os mapas de características são transformados em um vetor unidimensional (Flatten (ou em português, achatamento)), de modo a servir de entrada para a rede.
+A rede totalmente conectada normalmente pode ser qualquer rede neural para classicação/regressão.
+![alt text](image-16.png)
+
+
+8. **Função de ativação Softmax**
+
+Função de ativação para problemas de classificação multi-classe.
+
+A função Softmax converte um vetor de valores reais em uma distribuição de probabilidade.
+
+- Propriedades Fundamentais
+    - A soma das probabilidades de saída é sempre 1 Isso permite interpretar as saídas como probabilidades de pertencer a cada classe.
+    - Amplificação de Diferenças, fazendo a exponenciação da saída, enfatizando a maior Diferença.
+
+![alt text](image-17.png)
+
+![alt text](image-19.png)
+
+Em redes neurais, Softmax é combinada com a Cross-Entropy Loss para treinamento:
+![alt text](image-18.png)
