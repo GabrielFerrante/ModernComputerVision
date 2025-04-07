@@ -173,3 +173,39 @@ A função Softmax converte um vetor de valores reais em uma distribuição de p
 
 Em redes neurais, Softmax é combinada com a Cross-Entropy Loss para treinamento:
 ![alt text](image-18.png)
+
+## Calculando parâmetros 
+
+Os pesos são as variáveis que precisam ser aprendidas ao treinar um modelo
+Podem ser chamados de parâmetros também. 
+
+**Nossas camadas ocultas, como as camadas de convolução ou totalmente conectadas, têm pesos !!**
+
+Quantos parâmetros existem em 16 filtros de convolução com
+núcleos 3x3? 
+
+- Lembrando, o kernel tem dimensões 3x3x1 (se for somente 1 canal abordado), então o calculo da formula é: altura x largura x profundidade + bias. Logo, um filtro possui 10 pesos a serem aprendidos (3x3x1) + 1 = 10. Então, só multiplicar por 16, 160.
+
+### Bias
+
+O Bias é um termo escalar adicionado ao resultado da operação de convolução em cada filtro de uma CNN. Ele permite que a rede ajuste o limiar de ativação de cada neurônio, adicionando flexibilidade ao modelo para aprender padrões complexos. O bias compensa diferenças na distribuição dos dados (ex: imagens muito escuras ou claras).
+
+Analogia: Pense no bias como um "ajuste fino" que desloca a saída para cima ou para baixo, independentemente dos dados de entrada.
+
+1. Ajuste do Limiar de Ativação
+Após a convolução (produto entre os pesos do kernel e os pixels da imagem), o bias é somado ao resultado: saída = (input * Kernel) + Bias. Isso permite que a rede aprenda a "ativar" ou "desativar" um neurônio mesmo quando a entrada é zero.
+
+Sem o bias, a saída da convolução seria apenas uma combinação linear das entradas, limitando a capacidade da rede de modelar relações não-lineares. O bias introduz um offset, permitindo que a função de ativação (ex: ReLU) opere em regiões diferentes do espaço de entrada
+
+Parâmetro Aprendível:
+
+O bias é atualizado durante o treinamento via backpropagation, assim como os pesos do kernel.
+
+Gradiente do bias: Derivada da função de perda em relação ao bias, que é simplesmente a soma dos gradientes da camada seguinte.
+
+Número de Parâmetros: Se uma camada convolucional tem D filtros, ela terá D biases (um por filtro).
+
+Exemplo: Uma camada com 64 filtros tem 64 biases.
+
+![alt text](image-20.png)
+![alt text](image-21.png)
