@@ -1,3 +1,4 @@
 GroundingDINO/
 *.pth
 *.jpeg
+mnist/
