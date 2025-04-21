@@ -3,3 +3,4 @@ GroundingDINO/
 *.jpeg
 mnist/
 MNIST/
+*.h5
