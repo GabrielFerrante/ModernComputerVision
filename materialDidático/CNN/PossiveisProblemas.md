@@ -98,6 +98,4 @@ Capacidade do modelo de **performar bem em dados não vistos** (teste), refletin
    - Monitore alguns dados junto com as predições.
 
 3. **Use Técnicas de Regularização**:
-   ```python
-   # Exemplo de Dropout no Keras
-   model.add(layers.Dropout(0.5))  # Zera 50% dos neurônios aleatoriamente
+   - Ver conteúdo de regularização >
