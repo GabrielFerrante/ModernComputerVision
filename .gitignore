@@ -1,6 +1,8 @@
 GroundingDINO/
 *.pth
+*.pt
 *.jpeg
 mnist/
 MNIST/
 *.h5
+fashion/
