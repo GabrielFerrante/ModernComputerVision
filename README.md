@@ -11,7 +11,8 @@ Técnicas de visão computacional com aprendizado de máquina e aprendizado prof
 - Fundamentos
     - Leitura básica de imagens
     - Conceitos importantes de Numpy e manipulação de matrizes.
-    - Conceitos de aprendizado de máquina
+    - Conceitos de aprendizado de máquina.
     - Pipeline de treinamento.
-    - Redes Neurais Convolucionais (Teoria e prática)
+    - Redes Neurais Convolucionais (Teoria e prática).
+    - Redes Residuais.
 - Materiais didáticos.
