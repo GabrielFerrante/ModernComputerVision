@@ -15,4 +15,18 @@ Técnicas de visão computacional com aprendizado de máquina e aprendizado prof
     - Pipeline de treinamento.
     - Redes Neurais Convolucionais (Teoria e prática).
     - Redes Residuais.
+    - Regularização.
+    - Técnicas extras para otimizar treino.
+    - Trabalhando com dados reais.
+    - Processando e treinando com GPU.
+    - Refinando redes.
+    - Segmentação semântica.
+    - Codificadores e Decodificadores.
+    - Auto Enconders.
+    - Módulo de atenção e Transformers.
+    - CLIP
+    - VLMs
+    - Geração de imagens
+    - Análise de desempenho e eficiência.
+    - Detecção de pontos salientes.
 - Materiais didáticos.
