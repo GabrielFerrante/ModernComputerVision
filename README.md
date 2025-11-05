@@ -7,7 +7,11 @@ Técnicas de visão computacional com aprendizado de máquina e aprendizado prof
     - Redes Neurais Convolucionais com Pytorch e TensorFlow Keras (Aplicação rápida)
     - Análise de performance de Redes Neurais Convolucionais.
     - Aplicando regularização em redes no Pytorch e Keras.
+    - Aplicando o método de Early Stopping.
     - Visualização de aprendizado e classificação de CNN's com TensorFlow Keras.
+    - Explicabilidade de CNN com método CAM.
+    - Modelos pré-treinados e suas arquiteturas (LeNet, VGG, Inception, Resnet, MNASNet).
+    - Ranks de previsão.
 - Fundamentos
     - Leitura básica de imagens
     - Conceitos importantes de Numpy e manipulação de matrizes.
