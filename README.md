@@ -3,7 +3,9 @@ Técnicas de visão computacional com aprendizado de máquina e aprendizado prof
 
 
 - Detectando objetos com Zero Shot Detection multimodal com Grounding Dino.
-- Módulo CNN
+- CallBacks em TensorFlow Keras e Pytorch
+- Transferência de aprendizado
+- Classificação com Pytorch e Keras
     - Redes Neurais Convolucionais com Pytorch e TensorFlow Keras (Aplicação rápida)
     - Análise de performance de Redes Neurais Convolucionais.
     - Aplicando regularização em redes no Pytorch e Keras.
@@ -12,7 +14,7 @@ Técnicas de visão computacional com aprendizado de máquina e aprendizado prof
     - Explicabilidade de CNN com método CAM.
     - Modelos pré-treinados e suas arquiteturas (LeNet, VGG, Inception, Resnet, MNASNet).
     - Ranks de previsão.
-- Fundamentos
+- Fundamentos (Disciplina)
     - Leitura básica de imagens
     - Conceitos importantes de Numpy e manipulação de matrizes.
     - Conceitos de aprendizado de máquina.
