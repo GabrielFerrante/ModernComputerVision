@@ -6,6 +6,8 @@ Técnicas de visão computacional com aprendizado de máquina e aprendizado prof
 - CallBacks em TensorFlow Keras e Pytorch
 - Transferência de aprendizado
 - Classificação com Pytorch e Keras
+- Auto Encoders
+- Deep Dream e NST
     - Redes Neurais Convolucionais com Pytorch e TensorFlow Keras (Aplicação rápida)
     - Análise de performance de Redes Neurais Convolucionais.
     - Aplicando regularização em redes no Pytorch e Keras.

@@ -6,3 +6,5 @@ mnist/
 MNIST/
 *.h5
 fashion/
+*.csv
+data/
