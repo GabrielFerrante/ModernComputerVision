@@ -5,9 +5,10 @@ Técnicas de visão computacional com aprendizado de máquina e aprendizado prof
 - Detectando objetos com Zero Shot Detection multimodal com Grounding Dino.
 - CallBacks em TensorFlow Keras e Pytorch
 - Transferência de aprendizado
-- Classificação com Pytorch e Keras
 - Auto Encoders
+- Redes Siamesas
 - Deep Dream e NST
+- Classificação com Pytorch e Keras
     - Redes Neurais Convolucionais com Pytorch e TensorFlow Keras (Aplicação rápida)
     - Análise de performance de Redes Neurais Convolucionais.
     - Aplicando regularização em redes no Pytorch e Keras.
