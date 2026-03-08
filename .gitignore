@@ -8,3 +8,8 @@ MNIST/
 fashion/
 *.csv
 data/
+*.tgz
+*.zip
+*.jpg 
+*.npz
+*.xml
