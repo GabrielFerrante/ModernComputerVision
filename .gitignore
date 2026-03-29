@@ -15,3 +15,11 @@ data/
 *.xml
 *.dat
 *.pkl
+*.pbtxt
+*.pb
+*.weights
+*.mp4
+*.onnx
+train2017/
+yolov5/
+yolov7/
