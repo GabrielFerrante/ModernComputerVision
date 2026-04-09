@@ -8,6 +8,8 @@ Técnicas de visão computacional com aprendizado de máquina e aprendizado prof
 - Auto Encoders
 - Redes Siamesas
 - Deep Dream e NST
+- Estimação de profundidade
+- Estimação de corpo e pose
 - Classificação com Pytorch e Keras
     - Redes Neurais Convolucionais com Pytorch e TensorFlow Keras (Aplicação rápida)
     - Análise de performance de Redes Neurais Convolucionais.
